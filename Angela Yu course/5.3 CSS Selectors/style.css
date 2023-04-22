@@ -9,3 +9,19 @@ ol {
 p{
   color: red;
 }
+
+.class {
+  font-size: 20px;
+}
+
+#id-selector-demo {
+  color: green;
+}
+
+li[value=4]{
+  color: blue;
+}
+
+body{
+  text-align: center;
+}
