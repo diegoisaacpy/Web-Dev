@@ -1,0 +1,45 @@
+.pricing-plan{
+    
+    
+    background-color: grey;
+    margin: 10px;
+    text-align: center;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-title{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.plan-price{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Sono';
+}
+
+.plan-features{
+    list-style: none;
+}
+
+.plan-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+@media  (max-width:1250px) {
+
+    .pricing-plan{
+        flex-direction: column;
+        height: 100%;
+    }
+    
+}
